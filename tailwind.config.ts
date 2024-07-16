@@ -13,6 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      boxShadow: {
+        "angle-left": "-25px 0px 2px 20px #18181b",
+        "angle-right": "25px 0px 2px 20px #18181b",
+      },
+      fontFamily: {
+        "p": "var(--font-poppins)"
+      }
     },
   },
   plugins: [],
