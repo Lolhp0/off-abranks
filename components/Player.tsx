@@ -52,7 +52,7 @@ const Player = ({ name, region, rank, reason }: any) => {
       )}
       {/* REGION END */}
       {/* NAME START */}
-      <span className="mx-4 text-md">{name}</span>
+      <span className={`mx-1 ${reason ? "text-stone-50" : "text-stone-950"} text-lg font-p`}>{name}</span>
       {/* NAME END */}
       {reason && (
         <p

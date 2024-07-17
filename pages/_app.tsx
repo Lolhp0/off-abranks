@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <main className={`w-full min-h-screen bg-zinc-900 text-white ${nunito.className} ${poppins.variable}`}>
       <Header/>
       <Component {...pageProps} />
-      <div className="fixed bottom-2 right-8 z-[99999] flex flex-col items-end justify-start" onClick={() => setToggle(!toggle)}>
+      <div className="sticky bottom-2 right-12 z-[99999] flex flex-col items-end justify-start mr-2" onClick={() => setToggle(!toggle)}>
         {
           toggle && (
             <div className="mb-2">
