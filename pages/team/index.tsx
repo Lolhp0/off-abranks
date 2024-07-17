@@ -1,3 +1,4 @@
+import { ComingSoon } from '@/components'
 import React from 'react'
 
 const index = () => {
@@ -6,9 +7,7 @@ const index = () => {
       <head>
         <title>ABRANKS - Team</title>
       </head>
-        <div className='w-full h-fit text-center'>
-            <h2 className='text-4xl font-semibold'>THE TEAM</h2>
-        </div>
+      <ComingSoon/>
     </section>
   )
 }
