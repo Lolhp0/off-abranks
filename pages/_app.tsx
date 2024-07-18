@@ -28,9 +28,9 @@ export default function App({ Component, pageProps }: AppProps) {
         }
         <div className="!relative ml-auto">
           <div className="absolute -top-1.5 -right-0.5 z-50">
-            <div className="relative" aria-hidden="true">
-              <span className="w-4 h-4 block bg-indigo-900 rounded-full animate-ping"></span>
-              <span className="w-4 h-4 block bg-blue-600 rounded-full absolute top-0 right-0"></span>
+            <div className="relative overflow" aria-hidden="true">
+              <span className="w-3 h-3 block bg-indigo-900 rounded-full animate-ping"></span>
+              <span className="w-3 h-3 block bg-blue-600 rounded-full absolute top-0 right-0"></span>
             </div>
           </div>
         </div>
