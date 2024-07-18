@@ -16,3 +16,7 @@ export default function Home() {
     </>
   );
 }
+
+// CRAFTY.GG API KEY:
+
+// crafty_YzI4MDYyZjEtZTQ2NS00OGY5LTg4M2YtNzE0MjQ1M2I1MmFk.SlJ0R3hXdmpNOWFWT3czZWxUeGs0ajcxZWEyUVg5YllOSDVSZUNOWTM1MzE1MjgxODY

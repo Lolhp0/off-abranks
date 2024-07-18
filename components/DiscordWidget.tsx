@@ -23,7 +23,7 @@ const DiscordWidget = () => {
             `}
           </style>
         </p>
-        <Link href="/" className="bg-blue-600 py-2 px-4 rounded-lg">
+        <Link href="https://discord.gg/zs5Y7jKAmB" target="_blank"  className="bg-blue-600 py-2 px-4 rounded-lg">
           Join Now!
         </Link>
       </div>

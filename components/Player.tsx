@@ -11,7 +11,7 @@ const Player = ({ name, region, rank, reason }: any) => {
         rank === "L"
           ? "bg-blue-600 hover:bg-blue-700"
           : rank === "H"
-          ? "bg-blue-800 hover:bg-blue-800/75"
+          ? "bg-blue-800 hover:bg-blue-800/95"
           : "bg-[#080c0c] hover:bg-[#080c0c]/75"
       } mb-[1px] flex items-center`}
       onMouseOver={() => setHover(true)}
@@ -22,7 +22,7 @@ const Player = ({ name, region, rank, reason }: any) => {
       {region && (
         <>
           <div
-            className={`w-1.5 h-[inherit]
+            className={`w-2 h-[inherit]
       ${
         region.toLowerCase() === "eu"
           ? "bg-green-400"
@@ -52,7 +52,7 @@ const Player = ({ name, region, rank, reason }: any) => {
       )}
       {/* REGION END */}
       {/* NAME START */}
-      <span className={`mx-1 ${reason ? "text-stone-50" : "text-stone-950"} text-lg font-p`}>{name}</span>
+      <span className={`mx-2.5 ${reason ? "text-stone-50" : "text-stone-950"} text-lg font-p`}>{name}</span>
       {/* NAME END */}
       {reason && (
         <p
