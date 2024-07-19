@@ -4,13 +4,7 @@ import React, { useState } from "react";
 import Player from "./Player";
 import { Profile } from ".";
 import { useDisclosure } from "@nextui-org/react";
-import {
-  t1Players,
-  t2Players,
-  t3Players,
-  t4Players,
-  t5Players,
-} from "@/constants/players";
+import { t1Players, t2Players, t3Players, t4Players, t5Players, } from "@/constants/players";
 
 const Players = ({ players }: any) => {
   const [profile, setProfile] = useState<any>({
