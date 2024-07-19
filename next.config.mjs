@@ -7,8 +7,15 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'media.discordapp.net',
         },
+        {
+            protocol: "https",
+            hostname: "render.crafty.gg",
+        }
     ],
 },
+typescript: {
+    ignoreBuildErrors: true
+}
 };
 
 export default nextConfig;

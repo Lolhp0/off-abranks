@@ -7,6 +7,7 @@ html,body {
 }
 #html {
   color-scheme: dark !important;
+  padding-right: 0 !important;
 }
 
 @layer utilities {

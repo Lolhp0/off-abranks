@@ -31,7 +31,7 @@ const Player = ({ name, region, rank, reason }: any) => {
           : region.toLowerCase() === "as"
           ? "bg-yellow-600"
           : region.toLowerCase() === "me"
-          ? "bg-orange-700"
+          ? "bg-orange-300"
           : region.toLowerCase() === "sa"
           ? "bg-amber-700"
           : region.toLowerCase() === "af"

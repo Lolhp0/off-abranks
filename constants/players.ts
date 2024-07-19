@@ -595,10 +595,12 @@ export const subhumans = [
             {
                 name: "user",
                 reason: "Alting",
+                region: "eu",
             },
             {
                 name: "user 2",
                 reason: "TBotting",
+                region: "eu",
             },
         ]
     }
